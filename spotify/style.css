@@ -1,0 +1,423 @@
+
+*{ 
+    color:white;
+    /* border-radius: 10px; */
+    /* background-color: black; */
+    /* border: 2px solid white; */
+    font-family: sans-serif;
+}
+body {
+    /* background: #edf2f8; */
+    font-family:'spotify-circular, Helvetica, Arial, sans-serif';
+    line-height: 1.7;
+    font-size: 13px;
+    background-color: black;
+}
+
+a:visited{
+    opacity: 0.3;
+}
+
+h2{
+    margin-left: 30px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+nav{
+    background-color:black;
+    height: 80px;
+    position: fixed;
+    margin-top: 0px;
+}
+nav .logo{
+    font-family: monospace;
+    font-size: large;
+    color:white;
+}
+
+
+nav .logo i{
+    color: white;
+    margin: 20px 0px 0px 20px;
+    align-items: center;
+    /* width: 50%; */
+    height: 50px;
+    font-size: 45px;
+
+}
+nav button{
+    border: 2px solid white;
+    align-items: right;
+
+}
+
+/* 
+.main-div{
+/* display: grid; */
+/* background-color:#404040; */
+/* grid-template-columns: repeat(3,1fr); */
+/* height: 100vh; */
+/* gap: 5px; */
+
+
+
+ 
+                                        /* sidebar  */
+
+.sidebar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 16%;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .logo .spotify{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.main-div  .sidebar .icons ul{
+    margin-top: 50%;
+    margin-left: 0px;
+    padding-left: 20px;
+}
+.main-div  .sidebar .icons ul i{
+    padding: 0px 7px 7px 7px;
+    margin: 0px 5px 5px  0px;
+    color: white;
+    display: flex;
+    height: 30px;
+    font-size: 18px;
+}
+
+
+.main-div  .sidebar .icons ul i .inner{
+    padding: 0px 5px 5px 0px;
+    margin: 0px 5px 5px  0px;
+    color: white;
+    display: flex;
+    height: 30px;
+    font-size: small;
+    
+}
+.main-div .sidebar .icons .sidebar-icon{
+    margin-top: 20%;
+    opacity: 0.6;
+}
+
+.main-div .sidebar .logo .spotify{
+    /* margin-bottom: 200px; */
+    font-size: larger;
+
+}
+
+.sidebar  .english{
+    opacity: 0.8;
+    width: 90px;
+    /* font-weight: 100; */
+    margin-top: 40px;
+    margin: 20px 80px 20px 30px;
+    padding: 7px 7px 7px 7px;
+    border: 0.1px solid white;
+    border-radius: 40px;
+    background-color: black;
+}
+
+
+.sidebar .english:hover{
+    font-weight: bolder;
+    animation-direction: alternate;
+    animation-duration: 5s;
+    opacity: 1;
+    /* block-size: 45px; */
+}
+
+
+                                            /* main-section */
+.main{
+    margin-left: 18%;
+    
+}
+
+
+header{
+    position: fixed;
+    top: 0px;
+    display:flex;
+    flex-direction: row;
+    height: 70px;
+    background-color: black;
+    margin-top: 20px;
+    /* opacity: 0.7; */
+    
+}
+header i{
+    opacity: 0.5;
+    margin-left: 10px;
+    margin-top: 25px;
+    
+}
+header button{
+    margin-top: 20px;
+}
+
+.main header{
+    /* display: flex; */
+    font-size: x-large;
+    /* margin-top: 15px; */
+    width: 85vw;
+    left: 245px;
+    margin-top: 0%;
+    /* border: 2px solid white; */
+    
+}
+.main h2{
+    margin-top: 70px;
+}
+
+
+.main header .sign-up{
+    font-weight: bold;
+    opacity: 0.5;
+    border: 2px solid black;
+    background-color: black;
+    top: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 70%;
+    
+}
+
+.main header .sign-up:hover{
+    color:white;
+    font-weight: 900;
+    opacity: 1;
+}
+
+.main header .log-in{
+    color: black;
+    justify-content: right;
+    border: 2px solid white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 40px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: white;
+    opacity: 1;
+     margin-left: 5px;
+    /* margin-top: -30px; */
+}
+
+.main header .log-in:hover{
+    animation-direction: alternate;
+    font-weight: 800;
+    animation-duration: 5s;
+}
+
+
+.row-container .focus-box p{
+    opacity: 0.6;
+    padding: 0px 5px 0px 5px;
+    top: 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.main .row-container{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    /* border: 2px solid white; */
+    gap: 1.2rem;
+}
+
+.main .row-container .focus-box{
+    height: 270px;
+    width: 170px;
+    padding: 7px 7px 7px 7px;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    background-color: #0D0D0D;
+    /* position: relative; */
+}
+
+ .row-container .focus-box:hover{
+    background-color: #252525;
+    
+}
+
+.main .row-container .focus-box h3{
+    margin-left: 5px;
+    
+}
+
+.main .row-container .focus-box h3 p{
+    margin-left: 10px;
+}
+
+.row-container .focus-box i{
+    color: green;
+}
+.row-container .focus-box .play:hover{
+    font-size: 30px;
+    opacity: 1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    transform:translateY(-20px);
+}
+
+.row-container .focus-box .play {
+    position: relative;
+    opacity: 0;
+}
+
+.row-container .focus-box .play .fa{
+    position: absolute;
+}
+
+.focus-box:hover{
+    /* height: 20px; */
+    transform: translateY(-20);
+}
+
+.main .focus-box img{
+    height:150px;
+    width: 155px;
+    margin-left: 7px;
+    margin-top: 4px;
+    border-radius: 10px;
+    /* padding: 5px; */
+}
+
+.main-div .sidebar .sidebar-footer{
+    margin-top: 60px;
+    margin-left: 30px;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.main header i{
+    /* border: 2px solid #252525; */
+    width: 0px;
+    height: 20px;
+    padding: 3px 10px 0px 10px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    border-radius: 50%;
+}
+
+
+
+
+/* spotify playlist */
+/* .spotify-playlist .row-container{
+    margin: 30px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+.spotify-playlist .row-container .focus-box{
+    height: 250px;
+    width: 190px;
+    border: 2px solid white;
+    border-radius: 10px;
+} */
+
+/* .spotify-playlist .row-container .focus-box:hover{
+   color:blue;
+} */
+
+/* .spotify-playlist .focus-box img{
+    height:150px;
+    width: 190px;
+    border-radius: 10px;
+} */
+
+
+.sound .row-container .focus-box p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+
+                                        /* Footer Section */
+.footer .footer-container{ 
+display:flex;
+flex-direction: row;
+height: 270px;
+width: 79vw;
+padding: 7px 7px 7px 7px;
+/* border: 2px solid white; */
+border-radius: 10px;
+background-color:black;
+
+}
+
+
+
+
+/* 
+.footer .footer-container{
+    margin-top: 150px;
+} */
+
+.footer .footer-container .focus-box{
+    font-size: 17px;
+    /* border: 2px solid white; */
+    /* margin: 40px; */
+   /* margin-right: 120px; */
+   width: 60vw;
+}
+
+
+.footer .footer-container .focus-box .footer-icons i{
+    font-size: 25px;
+    /* border: 2px solid white; */
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+    background-color: #404040;
+}
+
+.footer .footer-container .focus-box .footer-icons i:hover{
+    background-color: #2C3E50;
+
+}
+.footer .footer-container .focus-box .two{
+    font-weight: bolder;
+}
+
+.footer .footer-container .focus-box .three{
+    opacity: 0.6;
+} 
+
+
+.line{
+    border-bottom: 1px solid white;
+    opacity: 0.2;
+    width: 80vw;
+        /* margin: auto; */
+}
+
+ .end-line {
+    height: 100px;
+   margin-top: 20px;
+    
+}
+
+ .end-line  .end{
+    opacity: 0.5;
+    margin-left: 40px;
+}
+.footer .footer-container .focus-box .three:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
